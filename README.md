@@ -19,17 +19,17 @@ ClinicBooking App - SwiftUI is a simple Clinic app with list of doctors and book
 <h3>Screens</h3>
 <hr>
 <div style="float:left">
-<img src="Screens/Screen1.png"  width = "393" height = "852" />
-<img src="Screens/Screen2.png"  width = "393" height = "852" />
-<img src="Screens/Screen3.png"  width = "393" height = "852" />
-<img src="Screens/Screen4.png"  width = "393" height = "852" />
-<img src="Screens/Screen5.png"  width = "393" height = "852" />
-  <img src="Screens/Screen6.png"  width = "393" height = "852" />
-  <img src="Screens/Screen7.png"  width = "393" height = "852" />
-  <img src="Screens/Screen8.png"  width = "393" height = "852" />
-  <img src="Screens/Screen9.png"  width = "393" height = "852" />
-  <img src="Screens/Screen10.png"  width = "393" height = "852" />
-  <img src="Screens/Screen11.png"  width = "393" height = "852" />
-  <img src="Screens/Screen12.png"  width = "393" height = "852" />
-  <img src="Screens/Screen13.png"  width = "393" height = "852" />
+<img src="Screens/Screen-1.png"  width = "393" height = "852" />
+<img src="Screens/Screen-2.png"  width = "393" height = "852" />
+<img src="Screens/Screen-3.png"  width = "393" height = "852" />
+<img src="Screens/Screen-4.png"  width = "393" height = "852" />
+<img src="Screens/Screen-5.png"  width = "393" height = "852" />
+  <img src="Screens/Screen-6.png"  width = "393" height = "852" />
+  <img src="Screens/Screen-7.png"  width = "393" height = "852" />
+  <img src="Screens/Screen-8.png"  width = "393" height = "852" />
+  <img src="Screens/Screen-9.png"  width = "393" height = "852" />
+  <img src="Screens/Screen-10.png"  width = "393" height = "852" />
+  <img src="Screens/Screen-11.png"  width = "393" height = "852" />
+  <img src="Screens/Screen-12.png"  width = "393" height = "852" />
+  <img src="Screens/Screen-13.png"  width = "393" height = "852" />
 </div>
