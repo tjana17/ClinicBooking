@@ -7,18 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3D16762C9306850011694A /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D16752C9306850011694A /* Firebase.swift */; };
+		EF3D16782C931C410011694A /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D16772C931C410011694A /* AppUserDefaults.swift */; };
+		EF3D167B2C932F010011694A /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = EF3D167A2C932F010011694A /* ProgressHUD */; };
+		EF3D16A22C9AA9540011694A /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = EF3D16A12C9AA9540011694A /* iPhoneNumberField */; };
+		EF3D16A42C9AFD810011694A /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D16A32C9AFD810011694A /* ImageUploader.swift */; };
+		EF3D16A82C9BFBD90011694A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D16A72C9BFBD90011694A /* UserViewModel.swift */; };
+		EF3D16AA2C9BFFF30011694A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D16A92C9BFFF30011694A /* ButtonStyles.swift */; };
+		EF3D16AC2C9DA1BF0011694A /* FamilyMemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D16AB2C9DA1BF0011694A /* FamilyMemberModel.swift */; };
+		EF3D16B02CA181A60011694A /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D16AF2CA181A60011694A /* EditProfileView.swift */; };
+		EF3D16B22CA568130011694A /* AppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D16B12CA568120011694A /* AppointmentsView.swift */; };
+		EF92A7202CF78124000B9AFC /* SplashViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92A71F2CF78124000B9AFC /* SplashViewCoordinator.swift */; };
+		EF92A7222CF781A0000B9AFC /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92A7212CF781A0000B9AFC /* SplashScreen.swift */; };
+		EF92A7242CF78529000B9AFC /* SavedDoctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92A7232CF78529000B9AFC /* SavedDoctors.swift */; };
+		EFF4A4DD2CA70123003BBF8A /* UpcomingAppointmentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF4A4DC2CA70123003BBF8A /* UpcomingAppointmentCardView.swift */; };
+		EFF4A4DF2CA70C46003BBF8A /* PastAppointmentsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF4A4DE2CA70C46003BBF8A /* PastAppointmentsCard.swift */; };
 		EFFF3B402C8435C7000C35CC /* ClinicBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B3F2C8435C7000C35CC /* ClinicBookingApp.swift */; };
-		EFFF3B422C8435C7000C35CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B412C8435C7000C35CC /* ContentView.swift */; };
+		EFFF3B422C8435C7000C35CC /* HomeDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B412C8435C7000C35CC /* HomeDashboard.swift */; };
 		EFFF3B442C8435C9000C35CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFF3B432C8435C9000C35CC /* Assets.xcassets */; };
 		EFFF3B472C8435C9000C35CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFF3B462C8435C9000C35CC /* Preview Assets.xcassets */; };
+		EFFF3B522C84474C000C35CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B512C84474C000C35CC /* LoginView.swift */; };
+		EFFF3B542C844DE5000C35CC /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B532C844DE5000C35CC /* AuthenticationViewModel.swift */; };
+		EFFF3B572C845018000C35CC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B562C845018000C35CC /* UIColor+Extension.swift */; };
+		EFFF3B5A2C8450D4000C35CC /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B592C8450D4000C35CC /* AppConstants.swift */; };
+		EFFF3B5C2C8456AA000C35CC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B5B2C8456AA000C35CC /* CustomTextField.swift */; };
+		EFFF3B5E2C8468B4000C35CC /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B5D2C8468B4000C35CC /* UIFont+Extension.swift */; };
+		EFFF3B602C846C6B000C35CC /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B5F2C846C6B000C35CC /* SignupView.swift */; };
+		EFFF3B642C85A398000C35CC /* ImageCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B632C85A398000C35CC /* ImageCircle.swift */; };
+		EFFF3B672C85A3E5000C35CC /* DoctorsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B662C85A3E4000C35CC /* DoctorsCardView.swift */; };
+		EFFF3B692C85A42D000C35CC /* ServicesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B682C85A42D000C35CC /* ServicesCardView.swift */; };
+		EFFF3B6B2C85A4A8000C35CC /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B6A2C85A4A8000C35CC /* ServicesView.swift */; };
+		EFFF3B6D2C85AA71000C35CC /* DoctorProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B6C2C85AA71000C35CC /* DoctorProfile.swift */; };
+		EFFF3B6F2C85E990000C35CC /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B6E2C85E990000C35CC /* UserProfileView.swift */; };
+		EFFF3B712C86E95A000C35CC /* UserDetailsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B702C86E95A000C35CC /* UserDetailsCardView.swift */; };
+		EFFF3B732C86E9AF000C35CC /* AddFamilyMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B722C86E9AF000C35CC /* AddFamilyMemberView.swift */; };
+		EFFF3B752C871221000C35CC /* DoctorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B742C871221000C35CC /* DoctorsList.swift */; };
+		EFFF3B772C8712AE000C35CC /* DoctorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B762C8712AE000C35CC /* DoctorsViewModel.swift */; };
+		EFFF3B782C8717A4000C35CC /* doctors.json in Resources */ = {isa = PBXBuildFile; fileRef = EFFF3B622C84BFBA000C35CC /* doctors.json */; };
+		EFFF3B7B2C874827000C35CC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EFFF3B7A2C874827000C35CC /* FirebaseAuth */; };
+		EFFF3B7D2C874827000C35CC /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EFFF3B7C2C874827000C35CC /* FirebaseAuthCombine-Community */; };
+		EFFF3B7F2C874827000C35CC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EFFF3B7E2C874827000C35CC /* FirebaseDatabase */; };
+		EFFF3B812C874827000C35CC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EFFF3B802C874827000C35CC /* FirebaseFirestore */; };
+		EFFF3B832C874827000C35CC /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EFFF3B822C874827000C35CC /* FirebaseFirestoreCombine-Community */; };
+		EFFF3B852C874827000C35CC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EFFF3B842C874827000C35CC /* FirebaseStorage */; };
+		EFFF3B872C874827000C35CC /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EFFF3B862C874827000C35CC /* FirebaseStorageCombine-Community */; };
+		EFFF3B892C874E97000C35CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFFF3B882C874E97000C35CC /* GoogleService-Info.plist */; };
+		EFFF3B8B2C874FEF000C35CC /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B8A2C874FEF000C35CC /* FirebaseService.swift */; };
+		EFFF3B8D2C8751A5000C35CC /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B8C2C8751A5000C35CC /* AppUser.swift */; };
+		EFFF3B8F2C87611C000C35CC /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF3B8E2C87611C000C35CC /* ForgotPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF3D16752C9306850011694A /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		EF3D16772C931C410011694A /* AppUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
+		EF3D16A32C9AFD810011694A /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		EF3D16A72C9BFBD90011694A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		EF3D16A92C9BFFF30011694A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		EF3D16AB2C9DA1BF0011694A /* FamilyMemberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMemberModel.swift; sourceTree = "<group>"; };
+		EF3D16AF2CA181A60011694A /* EditProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		EF3D16B12CA568120011694A /* AppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsView.swift; sourceTree = "<group>"; };
+		EF92A71F2CF78124000B9AFC /* SplashViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewCoordinator.swift; sourceTree = "<group>"; };
+		EF92A7212CF781A0000B9AFC /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		EF92A7232CF78529000B9AFC /* SavedDoctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedDoctors.swift; sourceTree = "<group>"; };
+		EFF4A4DC2CA70123003BBF8A /* UpcomingAppointmentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingAppointmentCardView.swift; sourceTree = "<group>"; };
+		EFF4A4DE2CA70C46003BBF8A /* PastAppointmentsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastAppointmentsCard.swift; sourceTree = "<group>"; };
 		EFFF3B3C2C8435C7000C35CC /* ClinicBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClinicBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFF3B3F2C8435C7000C35CC /* ClinicBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicBookingApp.swift; sourceTree = "<group>"; };
-		EFFF3B412C8435C7000C35CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFFF3B412C8435C7000C35CC /* HomeDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboard.swift; sourceTree = "<group>"; };
 		EFFF3B432C8435C9000C35CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFFF3B462C8435C9000C35CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFFF3B512C84474C000C35CC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EFFF3B532C844DE5000C35CC /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		EFFF3B562C845018000C35CC /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		EFFF3B592C8450D4000C35CC /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		EFFF3B5B2C8456AA000C35CC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EFFF3B5D2C8468B4000C35CC /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		EFFF3B5F2C846C6B000C35CC /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		EFFF3B622C84BFBA000C35CC /* doctors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = doctors.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		EFFF3B632C85A398000C35CC /* ImageCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCircle.swift; sourceTree = "<group>"; };
+		EFFF3B662C85A3E4000C35CC /* DoctorsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsCardView.swift; sourceTree = "<group>"; };
+		EFFF3B682C85A42D000C35CC /* ServicesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesCardView.swift; sourceTree = "<group>"; };
+		EFFF3B6A2C85A4A8000C35CC /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		EFFF3B6C2C85AA71000C35CC /* DoctorProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfile.swift; sourceTree = "<group>"; };
+		EFFF3B6E2C85E990000C35CC /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		EFFF3B702C86E95A000C35CC /* UserDetailsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsCardView.swift; sourceTree = "<group>"; };
+		EFFF3B722C86E9AF000C35CC /* AddFamilyMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFamilyMemberView.swift; sourceTree = "<group>"; };
+		EFFF3B742C871221000C35CC /* DoctorsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsList.swift; sourceTree = "<group>"; };
+		EFFF3B762C8712AE000C35CC /* DoctorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewModel.swift; sourceTree = "<group>"; };
+		EFFF3B882C874E97000C35CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EFFF3B8A2C874FEF000C35CC /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		EFFF3B8C2C8751A5000C35CC /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		EFFF3B8E2C87611C000C35CC /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +105,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFF3B7F2C874827000C35CC /* FirebaseDatabase in Frameworks */,
+				EF3D167B2C932F010011694A /* ProgressHUD in Frameworks */,
+				EF3D16A22C9AA9540011694A /* iPhoneNumberField in Frameworks */,
+				EFFF3B872C874827000C35CC /* FirebaseStorageCombine-Community in Frameworks */,
+				EFFF3B812C874827000C35CC /* FirebaseFirestore in Frameworks */,
+				EFFF3B7B2C874827000C35CC /* FirebaseAuth in Frameworks */,
+				EFFF3B832C874827000C35CC /* FirebaseFirestoreCombine-Community in Frameworks */,
+				EFFF3B7D2C874827000C35CC /* FirebaseAuthCombine-Community in Frameworks */,
+				EFFF3B852C874827000C35CC /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +139,13 @@
 		EFFF3B3E2C8435C7000C35CC /* ClinicBooking */ = {
 			isa = PBXGroup;
 			children = (
-				EFFF3B3F2C8435C7000C35CC /* ClinicBookingApp.swift */,
-				EFFF3B412C8435C7000C35CC /* ContentView.swift */,
+				EFFF3B612C84BF89000C35CC /* Resources */,
+				EFFF3B582C8450C6000C35CC /* Helpers */,
+				EFFF3B552C84500B000C35CC /* Extensions */,
+				EFFF3B4D2C843626000C35CC /* Model */,
+				EFFF3B4E2C84362C000C35CC /* Views */,
+				EFFF3B4F2C843638000C35CC /* ViewModel */,
+				EFFF3B502C84364C000C35CC /* AppDelegate */,
 				EFFF3B432C8435C9000C35CC /* Assets.xcassets */,
 				EFFF3B452C8435C9000C35CC /* Preview Content */,
 			);
@@ -65,6 +158,100 @@
 				EFFF3B462C8435C9000C35CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFFF3B4D2C843626000C35CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF3B742C871221000C35CC /* DoctorsList.swift */,
+				EFFF3B8C2C8751A5000C35CC /* AppUser.swift */,
+				EF3D16AB2C9DA1BF0011694A /* FamilyMemberModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFFF3B4E2C84362C000C35CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF3B652C85A3C3000C35CC /* Cards */,
+				EFFF3B412C8435C7000C35CC /* HomeDashboard.swift */,
+				EFFF3B512C84474C000C35CC /* LoginView.swift */,
+				EFFF3B5F2C846C6B000C35CC /* SignupView.swift */,
+				EFFF3B6A2C85A4A8000C35CC /* ServicesView.swift */,
+				EFFF3B6C2C85AA71000C35CC /* DoctorProfile.swift */,
+				EFFF3B6E2C85E990000C35CC /* UserProfileView.swift */,
+				EFFF3B722C86E9AF000C35CC /* AddFamilyMemberView.swift */,
+				EF3D16AF2CA181A60011694A /* EditProfileView.swift */,
+				EFFF3B8E2C87611C000C35CC /* ForgotPasswordView.swift */,
+				EF3D16B12CA568120011694A /* AppointmentsView.swift */,
+				EF92A71F2CF78124000B9AFC /* SplashViewCoordinator.swift */,
+				EF92A7212CF781A0000B9AFC /* SplashScreen.swift */,
+				EF92A7232CF78529000B9AFC /* SavedDoctors.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFFF3B4F2C843638000C35CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF3B532C844DE5000C35CC /* AuthenticationViewModel.swift */,
+				EFFF3B762C8712AE000C35CC /* DoctorsViewModel.swift */,
+				EF3D16A72C9BFBD90011694A /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFFF3B502C84364C000C35CC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF3B3F2C8435C7000C35CC /* ClinicBookingApp.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EFFF3B552C84500B000C35CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF3B562C845018000C35CC /* UIColor+Extension.swift */,
+				EFFF3B5D2C8468B4000C35CC /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EFFF3B582C8450C6000C35CC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF3B592C8450D4000C35CC /* AppConstants.swift */,
+				EFFF3B5B2C8456AA000C35CC /* CustomTextField.swift */,
+				EFFF3B632C85A398000C35CC /* ImageCircle.swift */,
+				EFFF3B8A2C874FEF000C35CC /* FirebaseService.swift */,
+				EF3D16752C9306850011694A /* Firebase.swift */,
+				EF3D16772C931C410011694A /* AppUserDefaults.swift */,
+				EF3D16A32C9AFD810011694A /* ImageUploader.swift */,
+				EF3D16A92C9BFFF30011694A /* ButtonStyles.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EFFF3B612C84BF89000C35CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF3B882C874E97000C35CC /* GoogleService-Info.plist */,
+				EFFF3B622C84BFBA000C35CC /* doctors.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EFFF3B652C85A3C3000C35CC /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF3B662C85A3E4000C35CC /* DoctorsCardView.swift */,
+				EFFF3B682C85A42D000C35CC /* ServicesCardView.swift */,
+				EFFF3B702C86E95A000C35CC /* UserDetailsCardView.swift */,
+				EFF4A4DC2CA70123003BBF8A /* UpcomingAppointmentCardView.swift */,
+				EFF4A4DE2CA70C46003BBF8A /* PastAppointmentsCard.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +270,17 @@
 			dependencies = (
 			);
 			name = ClinicBooking;
+			packageProductDependencies = (
+				EFFF3B7A2C874827000C35CC /* FirebaseAuth */,
+				EFFF3B7C2C874827000C35CC /* FirebaseAuthCombine-Community */,
+				EFFF3B7E2C874827000C35CC /* FirebaseDatabase */,
+				EFFF3B802C874827000C35CC /* FirebaseFirestore */,
+				EFFF3B822C874827000C35CC /* FirebaseFirestoreCombine-Community */,
+				EFFF3B842C874827000C35CC /* FirebaseStorage */,
+				EFFF3B862C874827000C35CC /* FirebaseStorageCombine-Community */,
+				EF3D167A2C932F010011694A /* ProgressHUD */,
+				EF3D16A12C9AA9540011694A /* iPhoneNumberField */,
+			);
 			productName = ClinicBooking;
 			productReference = EFFF3B3C2C8435C7000C35CC /* ClinicBooking.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +309,11 @@
 				Base,
 			);
 			mainGroup = EFFF3B332C8435C7000C35CC;
+			packageReferences = (
+				EFFF3B792C874827000C35CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EF3D16792C932F010011694A /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				EF3D16A02C9AA9540011694A /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = EFFF3B3D2C8435C7000C35CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +329,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFFF3B472C8435C9000C35CC /* Preview Assets.xcassets in Resources */,
+				EFFF3B892C874E97000C35CC /* GoogleService-Info.plist in Resources */,
+				EFFF3B782C8717A4000C35CC /* doctors.json in Resources */,
 				EFFF3B442C8435C9000C35CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +342,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFFF3B422C8435C7000C35CC /* ContentView.swift in Sources */,
+				EFFF3B732C86E9AF000C35CC /* AddFamilyMemberView.swift in Sources */,
+				EF3D16AC2C9DA1BF0011694A /* FamilyMemberModel.swift in Sources */,
+				EF3D16762C9306850011694A /* Firebase.swift in Sources */,
+				EF3D16A42C9AFD810011694A /* ImageUploader.swift in Sources */,
+				EFFF3B602C846C6B000C35CC /* SignupView.swift in Sources */,
+				EFFF3B752C871221000C35CC /* DoctorsList.swift in Sources */,
+				EFFF3B5C2C8456AA000C35CC /* CustomTextField.swift in Sources */,
+				EFFF3B692C85A42D000C35CC /* ServicesCardView.swift in Sources */,
+				EFFF3B542C844DE5000C35CC /* AuthenticationViewModel.swift in Sources */,
+				EFF4A4DF2CA70C46003BBF8A /* PastAppointmentsCard.swift in Sources */,
+				EFFF3B8B2C874FEF000C35CC /* FirebaseService.swift in Sources */,
+				EF3D16A82C9BFBD90011694A /* UserViewModel.swift in Sources */,
+				EFFF3B8D2C8751A5000C35CC /* AppUser.swift in Sources */,
+				EFFF3B5A2C8450D4000C35CC /* AppConstants.swift in Sources */,
+				EFFF3B522C84474C000C35CC /* LoginView.swift in Sources */,
+				EF3D16B22CA568130011694A /* AppointmentsView.swift in Sources */,
+				EF92A7242CF78529000B9AFC /* SavedDoctors.swift in Sources */,
+				EF3D16B02CA181A60011694A /* EditProfileView.swift in Sources */,
+				EFFF3B422C8435C7000C35CC /* HomeDashboard.swift in Sources */,
 				EFFF3B402C8435C7000C35CC /* ClinicBookingApp.swift in Sources */,
+				EFFF3B8F2C87611C000C35CC /* ForgotPasswordView.swift in Sources */,
+				EFFF3B672C85A3E5000C35CC /* DoctorsCardView.swift in Sources */,
+				EFFF3B772C8712AE000C35CC /* DoctorsViewModel.swift in Sources */,
+				EFF4A4DD2CA70123003BBF8A /* UpcomingAppointmentCardView.swift in Sources */,
+				EF92A7202CF78124000B9AFC /* SplashViewCoordinator.swift in Sources */,
+				EF3D16782C931C410011694A /* AppUserDefaults.swift in Sources */,
+				EFFF3B6B2C85A4A8000C35CC /* ServicesView.swift in Sources */,
+				EF92A7222CF781A0000B9AFC /* SplashScreen.swift in Sources */,
+				EFFF3B6F2C85E990000C35CC /* UserProfileView.swift in Sources */,
+				EFFF3B6D2C85AA71000C35CC /* DoctorProfile.swift in Sources */,
+				EF3D16AA2C9BFFF30011694A /* ButtonStyles.swift in Sources */,
+				EFFF3B642C85A398000C35CC /* ImageCircle.swift in Sources */,
+				EFFF3B5E2C8468B4000C35CC /* UIFont+Extension.swift in Sources */,
+				EFFF3B712C86E95A000C35CC /* UserDetailsCardView.swift in Sources */,
+				EFFF3B572C845018000C35CC /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClinicBooking/Preview Content\"";
+				DEVELOPMENT_TEAM = CY54S784AK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,6 +523,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ClinicBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -300,6 +540,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ClinicBooking/Preview Content\"";
+				DEVELOPMENT_TEAM = CY54S784AK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,6 +553,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ClinicBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -342,6 +584,81 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF3D16792C932F010011694A /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.3;
+			};
+		};
+		EF3D16A02C9AA9540011694A /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.4;
+			};
+		};
+		EFFF3B792C874827000C35CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF3D167A2C932F010011694A /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF3D16792C932F010011694A /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+		EF3D16A12C9AA9540011694A /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF3D16A02C9AA9540011694A /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+		EFFF3B7A2C874827000C35CC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFFF3B792C874827000C35CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EFFF3B7C2C874827000C35CC /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFFF3B792C874827000C35CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		EFFF3B7E2C874827000C35CC /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFFF3B792C874827000C35CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		EFFF3B802C874827000C35CC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFFF3B792C874827000C35CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		EFFF3B822C874827000C35CC /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFFF3B792C874827000C35CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		EFFF3B842C874827000C35CC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFFF3B792C874827000C35CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		EFFF3B862C874827000C35CC /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFFF3B792C874827000C35CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFFF3B342C8435C7000C35CC /* Project object */;
 }
